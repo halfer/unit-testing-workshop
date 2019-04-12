@@ -51,13 +51,15 @@ Now create a dummy test, in a file called `tests/unit/TestDemo.php`:
         }
     }
 
-Create a `phpunit.xml` file in your project root like so:
-
-    <TODO>
-
 Now try running this test like so:
 
-    php vendor/bin/phpunit
+    php vendor/bin/phpunit tests/unit
+
+That should work. Now, let's try writing some real tests. To start with, copy the following
+files from the repo to your project to get PHPUnit working:
+
+    * `phpunit.xml`
+    * `tests/bootstrap.php`
 
 Todo
 ---
